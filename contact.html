@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | My Portfolio</title>
+  <meta name="description" content="Contact information and form">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">MyPortfolio</a>
+  <nav><a href="index.html">Home</a><a href="hobbies.html">Hobbies</a><a href="media.html">Favourite Media</a><a href="contact.html">Contact</a></nav>
+</header>
+<main class="section">
+  <h1>Contact Me</h1>
+  <div class="contact-grid">
+    <section class="card">
+      <h2>My details</h2>
+      <p><strong>Name:</strong> Your Name</p>
+      <p><strong>Designation:</strong> BS Computer Science Student</p>
+      <p><strong>Email:</strong> yourname@example.com</p>
+      <p><strong>Phone:</strong> 03XX-XXXXXXX</p>
+      <h2>Friends</h2>
+      <ul><li>Friend One — ID: 12345</li><li>Friend Two — ID: 67890</li></ul>
+      <h2>Location map</h2>
+      <iframe class="map" src="https://www.google.com/maps?q=Iqra%20University%20Islamabad&output=embed" title="Google map of Iqra University Islamabad" loading="lazy"></iframe>
+    </section>
+    <section class="card">
+      <h2>Contact form</h2>
+      <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label><input id="name" name="name" type="text" required>
+        <label for="email">Email</label><input id="email" name="email" type="email" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+        <button class="button" type="submit">Send message</button>
+      </form>
+      <p class="note">Replace the sample name, email, phone, and friend IDs with your own details.</p>
+    </section>
+  </div>
+</main>
+<footer><p>© 2026 Your Name | Student Portfolio</p></footer>
+</body>
+</html>
